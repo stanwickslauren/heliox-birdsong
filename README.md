@@ -95,10 +95,10 @@ Each `.pkl` file is a Python dictionary of pandas tables, saved with pandas 1.5.
 These earlier steps are described in the Methods and are not part of this repository:
 
 * **Segmentation and UMAP**: syllables were segmented and embedded with the AVGN pipeline (Sainburg et al. 2019, https://github.com/timsainb/AVGN) and clustered with HDBSCAN.
-* **BioSound features**: from the BioSound toolbox (Elie and Theunissen 2018).
-* **S4 models**: one model per bird, trained on its regular air song (Methods 4.4.2). `s4_nll_build_data.ipynb` starts from each model's saved negative log-likelihood traces and from the two export pickles of the S4 analysis notebooks.
+* **BioSound features**: the 18 predefined acoustic features of every syllable, from the BioSound class of the Theunissen lab's soundsig package (Elie and Theunissen 2018, https://github.com/theunissenlab/soundsig). `data_figs.ipynb` starts from the saved feature tables.
+* **S4 models**: one autoregressive SaShiMi model per bird (Goel et al. 2022, "It's Raw! Audio Generation with State-Space Models", https://github.com/state-spaces/s4/tree/main/models/sashimi), trained on that bird's regular air song and used to score every song in both conditions (Methods 4.4.2). `s4_nll_build_data.ipynb` starts from each model's saved per-sample negative log-likelihood traces and from the two export pickles of the S4 analysis notebooks.
 * **VAE**: one model per bird (Methods 4.4.9). `vae_latent_data.pkl` collects its saved results unchanged.
-* **Mutual information**: the bootstrap was run beforehand; `data_figs.ipynb` collects its saved results.
+* **Mutual information**: mutual information of syllable transitions, estimated with code adapted from Sainburg et al. (2019, "Parallels in the sequential organization of birdsong and human speech", Nature Communications, https://github.com/timsainb/ParallelsBirdsongLanguagePaper). The bootstrap was run beforehand; `data_figs.ipynb` collects its saved results.
 
 The raw recordings are [available from ... / on request from the corresponding authors].
 
