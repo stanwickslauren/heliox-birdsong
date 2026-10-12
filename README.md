@@ -28,16 +28,14 @@ requirements.txt  the same versions, for pip
 | Fig. 2 A, C, G-J; Supp. Fig. S2 | `syllable_features_figures.ipynb` | `syllable_features_data.pkl` |
 | Fig. 3 | `transition_structure_figures.ipynb` | `transition_structure_data.pkl` |
 | Fig. 4 C-G | `song_structure_figures.ipynb` | `song_structure_data.pkl` |
-| Fig. 4 H-I; Supp. Fig. S5 | `kgram_figures.ipynb` | `kgram_data.pkl` |
+| Fig. 4 H-I; Supp. Fig. S4 | `kgram_figures.ipynb` | `kgram_data.pkl` |
 | Fig. 5 A-E; Supp. Fig. S6 | `within_song_figures.ipynb` | `within_song_data.pkl` |
 | Fig. 5 F-H | `vae_latent_figures.ipynb` | `vae_latent_data.pkl` |
-| Fig. 5 I-M; Supp. Fig. S7; Supp. Table S1 | `exposure_course_figures.ipynb` | `exposure_course_data.pkl` |
-| Fig. 6 C-I; Supp. Fig. S8 | `s4_nll_figures.ipynb` | `s4_figure_data.pkl` |
+| Fig. 5 I-M; Supp. Table S1 | `exposure_course_figures.ipynb` | `exposure_course_data.pkl` |
+| Fig. 6 C-I; Supp. Fig. S7 | `s4_nll_figures.ipynb` | `s4_figure_data.pkl` |
 | Supp. Fig. S1 | `clustering_validation_figures.ipynb` | `clustering_validation_data.pkl` |
 | Supp. Fig. S3 | `mutual_information_figures.ipynb` | `mutual_information_data.pkl` |
-| Supp. Fig. S4 | `repetition_figures.ipynb` | `repetition_data.pkl` |
-
-Fig. 1A and Fig. 4 A-B are drawings and are not made here.
+| Supp. Fig. S5 | `repetition_figures.ipynb` | `repetition_data.pkl` |
 
 ## Running the notebooks
 
