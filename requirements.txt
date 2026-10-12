@@ -1,0 +1,15 @@
+# The same versions as environment.yml, for pip in a Python 3.8 environment:
+#   pip install -r requirements.txt
+# hdbscan is built from source by pip, so this route needs a C compiler.
+numpy==1.22.4
+scipy==1.10.1
+scikit-learn==0.24.1
+hdbscan==0.8.33
+pandas==1.5.3
+statsmodels==0.14.1
+matplotlib==3.7.5
+seaborn==0.11.1
+networkx==3.1
+umap-learn==0.5.5
+notebook
+nbconvert
